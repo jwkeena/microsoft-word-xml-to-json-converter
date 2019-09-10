@@ -12,8 +12,8 @@ TO CORRESPONDENT (ARCHIVAL LOCATION): <--"TO" must be in all caps to use the pro
   Footnotes with footnote text.
 Page number
 
-For example:
-------------------------------------------
+for example:
+
 TO JOY GRESHAM (BODLEIAN):
 The Kilns, Headington Quarry, Oxford. Jan 1, 1950.
 My dear Joy,
@@ -21,7 +21,6 @@ Did you know we'll be married eventually? TWICE, in fact? 1 I don't really know 
 
 1 Lewis married Joy Gresham in a civil ceremony to prevent her from being deported back to America. Later, they married in the Anglican church, after Joy was diagnosed with bone cancer.
 556
-------------------------------------------
 
 # usage
 Given that all the letters were formatted that way, my program can predict which numbers are footnotes and which are page numbers, and a number of other things impossible without customization for this particular problem. The code is designed to be done year by year and volume by volume: i.e., each time running the program on a new chapter requires the user to manually enter in the Letter constructor which volume one is using (if desired), which year is being parsed, and what page the chapter begins on. 
