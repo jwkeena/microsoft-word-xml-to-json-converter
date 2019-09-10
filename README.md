@@ -28,4 +28,8 @@ Given that all the letters were formatted that way, my program can predict which
 The XML file must be hosted somewhere online first. After the program runs, it spits out the converted JS into a textbox in the html page. Copy and paste that JS into an IDE, and see the results prettified.
 
 # application
-The JavaScript objects built from this program provide the foundation for the search engine built on top of them: https://jwkeena.github.io/csl-letters/
+The JavaScript objects built from this program provide the foundation for the search engine built on top of them: 
+
+https://jwkeena.github.io/csl-letters/
+
+![](csl-demo.gif)
