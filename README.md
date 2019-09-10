@@ -10,7 +10,7 @@ The project was built with a very specific format in mind. The MS Word text must
 TO CORRESPONDENT (ARCHIVAL LOCATION): <--"TO" must be in all caps to use the program as written
   Letter content, with footnote numbers.
   Footnotes with footnote text.
-Page #
+Page number
 
 For example:
 ------------------------------------------
@@ -24,6 +24,6 @@ Did you know we'll be married eventually? TWICE, in fact? 1 I don't really know 
 ------------------------------------------
 
 # usage
-Given that all the letters were formatted that way, my program can predict which numbers are footnotes and which are page numbers, and a number of other things impossible without customization. The code is designed to be done year by year and volume by volume: i.e., each time running the program on a new chapter requires the user to manually enter in the Letter constructor which volume one is using (if desired), which year is being parsed, and what page the chapter begins on. 
+Given that all the letters were formatted that way, my program can predict which numbers are footnotes and which are page numbers, and a number of other things impossible without customization for this particular problem. The code is designed to be done year by year and volume by volume: i.e., each time running the program on a new chapter requires the user to manually enter in the Letter constructor which volume one is using (if desired), which year is being parsed, and what page the chapter begins on. 
 
 The XML file must be hosted somewhere online first. After the program runs, it spits out the converted JS into a textbox in the html page. Copy and paste that JS into an IDE, and see the results prettified.
