@@ -20,6 +20,7 @@ My dear Joy,
 Did you know we'll be married eventually? TWICE, in fact? 1 I don't really know what that means yet, but I guess you could say I'll be Suprised by Joy. How ironic! Yours, Jack
 
 1 Lewis married Joy Gresham in a civil ceremony to prevent her from being deported back to America. Later, they married in the Anglican church, after Joy was diagnosed with bone cancer.
+474
 
 # usage
 Given that all the letters were formatted that way, my program can predict which numbers are footnotes and which are page numbers, and a number of other things impossible without customization for this particular problem. The code is designed to be done year by year and volume by volume: i.e., each time running the program on a new chapter requires the user to manually enter in the Letter constructor which volume one is using (if desired), which year is being parsed, and what page the chapter begins on. 
